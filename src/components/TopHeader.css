@@ -1,0 +1,91 @@
+/*  RESET CSS  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#mainG {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/*  LOGO  */
+
+#logoP {
+    width: 50%;
+}
+
+#logoP img  {
+    width: 250px;
+}
+
+/*  MAIN  */
+
+#mainP {
+    width: 50%;
+    text-align: end;
+    display: inline-block;
+    text-align: -webkit-right;
+    margin-right: 50px;
+}
+
+#mainP ul {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 100px;   
+}
+
+#mainG ul li {
+    list-style: none;
+}
+
+#mainG ul li a {
+    color: #fff;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+/*  BLOC CONTENT HEADER  */
+
+#callToAction {
+    width: 50%;
+    margin-left: auto;
+    padding: 100px;
+    text-align: right;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+/*  TITLE  */
+
+h1  {
+    color: #fff;
+    font-size: 3em;
+}
+
+/*  TEXT DESCRIPTION  */
+
+#callToAction p {
+    width: 80%;
+    margin-left: auto;
+    text-align: justify-left;
+    font-size: 1.5em;
+    color: rgb(202, 201, 201);
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/*  BUTTON  */
+
+button  {
+    padding: 13px 70px;
+    font-size: 1.5em;
+    border-radius: 50px;
+    background: rgb(238, 238, 238);
+    border: solid 0px;
+    box-shadow: 0px 0px 10px 1px rgba(47, 47, 47, 0.75);
+-moz-box-shadow: 0px 0px 10px 1px rgba(47, 47, 47, 0.75);
+-webkit-box-shadow: 0px 0px 10px 1px rgba(47, 47, 47, 0.75);
+}
